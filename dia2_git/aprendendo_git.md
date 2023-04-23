@@ -1,4 +1,4 @@
-p
+ - **Git**
 
 Imagine que você ficou responsável por fazer pequenos ajustes em um projeto. Depois de algumas alterações feitas, você descobriu que o projeto não funciona mais e, além disso, você não consegue desfazer as modificações. E agora? Você precisa comunicar sua liderança sobre o que aconteceu.
 
@@ -10,17 +10,15 @@ A sua liderança, então, responde que não há problema, pois vocês usam o Git
 
 Para instalar o Git, abra seu terminal e digite o comando:
 
-Copiar
 
 ```bash
-1sudo apt install git
+sudo apt install git
 ```
 Para conferir se a instalação funcionou, digite o comando  `git --version`, que mostra a versão instalada do  **Git**. O retorno no seu terminal vai ser parecido com esse (onde as letras  `X, Y, Z`  representam os números da versão):
 
-Copiar
 
 ```bash
-1git version X.Y.Z
+git version X.Y.Z
 ```
 ### Inicie o repositório Git com o comando  `git init`
 
