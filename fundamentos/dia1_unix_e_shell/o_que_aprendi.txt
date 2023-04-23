@@ -1,0 +1,7 @@
+Aprendemos a utilizar comandos no Unix
+
+aprendemos utilizar os sinais de > para reescrever o que está escrito no arquivo
+e >> para acrescentar ao final do arquivo algo a ser escrito
+
+ctrl + D fecha o cat
+
