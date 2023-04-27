@@ -4,4 +4,3 @@ aprendemos utilizar os sinais de > para reescrever o que está escrito no arquiv
 e >> para acrescentar ao final do arquivo algo a ser escrito
 
 ctrl + D fecha o cat
-
