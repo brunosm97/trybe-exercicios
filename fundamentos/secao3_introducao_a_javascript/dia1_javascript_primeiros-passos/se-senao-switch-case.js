@@ -188,3 +188,57 @@ else {
     console.log("Erro, valores menor que 0");
 }  
 
+/* Utilize if/else para escrever um código que, dado um salário bruto, calcule o salário líquido a ser recebido. */
+
+let salario = 2500;
+let salarioLiq;
+let impostoRenda;
+let salarioFinal;
+
+if (salario <= 1556.94) {
+    let aliquota8 = salario * 0.08;
+    salarioLiq = salario - aliquota8;
+}
+else if (salario >= 1556.95 && salario <= 2594.92) {
+    let aliquota9 = salario * 0.09;
+    salarioLiq = salario - aliquota9;
+}
+else if (salario >= 2594.93 && salario <= 5189.82) {
+    let aliquota11 = salario * 0.11;
+    salarioLiq = salario - aliquota11;
+}
+else {
+    salarioLiq = salario - 570.88;
+}
+
+console.log("Salário liquido é de: " + salarioLiq);
+
+
+if (salarioLiq <= 1903.98) {
+    salarioFinal = salarioLiq;
+    console.log("Isento do imposto de renda.");
+}
+else if (salarioLiq >= 1903.99 && salarioLiq <= 2826.65) {
+    let aliquota75 = salarioLiq * 0.075;
+    impostoRenda = aliquota75 - 142.80;
+    salarioFinal = salarioLiq - impostoRenda;
+}
+else if (salarioLiq >= 2826.66 && salarioLiq <= 3751.05) {
+    let aliquota15 = salarioLiq * 0.15;
+    impostoRenda = aliquota15 - 354.80;
+    salarioFinal = salarioLiq - impostoRenda;
+}
+else if (salarioLiq >= 3751.06 && salarioLiq <= 4664.68) {
+    let aliquota225 = salarioLiq * 0.225;
+    impostoRenda = aliquota225 - 636.13;
+    salarioFinal = salarioLiq - impostoRenda;
+}
+else {
+    let aliquota275 = salarioLiq * 0.275;
+    impostoRenda = aliquota275 - 636.13;
+    salarioFinal = salarioLiq - impostoRenda;
+}
+
+console.log("Salário liquido já com imposto de Renda pago é de: " + salarioFinal);
+
+
