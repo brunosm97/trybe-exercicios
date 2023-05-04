@@ -1,5 +1,5 @@
 
-/* let tasksList = ['Tomar café', 'Reunião', 'Brincar com o cachorro'];
+let tasksList = ['Tomar café', 'Reunião', 'Brincar com o cachorro'];
 
 console.log(tasksList.length);
 // 3
@@ -48,7 +48,7 @@ console.log(indexOfPortfolio);
 
 menu.push('Aulas');
 
-console.log(menu); */
+console.log(menu); 
 
 // Utilizando o array abaixo, percorra-o somando todos os valores. Caso o valor final seja maior que 15, imprima-o. Caso seja igual ou menor que 15, imprima a mensagem: “Valor menor que 16”:
 
@@ -65,4 +65,3 @@ if (sum > 15) {
 else {
     console.log("Array menor que 16");
 }
-
