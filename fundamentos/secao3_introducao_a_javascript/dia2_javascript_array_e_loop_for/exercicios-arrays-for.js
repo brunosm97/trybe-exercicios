@@ -68,9 +68,29 @@ else {
 let menorValor = numbers[0];
 
 for (let index = 0; index < numbers.length; index += 1) {
-    if (menorValor > numbers[index]) {  
+if (menorValor > numbers[index]) {  
         menorValor = numbers[index];
     }
 }
 
 console.log("O menor valor deste array é: " + menorValor);
+
+// Utilizando for, crie um array que vá de 1 a 25 e imprima o resultado.
+
+let arrayOrder = [];
+
+for (let index = 0; index < 25; index += 1) {
+   arrayOrder[index] = index + 1; 
+}
+
+console.log(arrayOrder);
+
+// Utilizando o array que acabou de criar, imprima o resultado da divisão de cada um dos elementos por 2.
+
+let arrayDivisao = [];
+
+for (let index = 0; index < arrayOrder.length; index++) {
+    arrayDivisao[index] = arrayOrder[index] / 2;
+}
+
+ console.log(arrayDivisao);
